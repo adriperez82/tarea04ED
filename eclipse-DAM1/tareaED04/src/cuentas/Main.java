@@ -25,7 +25,7 @@ public class Main {
     }
 
 	private static double operativa_cuenta(CCuenta cuenta1, float cantidad) {
-		
+		/** Esto es un comentario Javadoc @author Adri */
 		double saldoActual;
 		saldoActual = cuenta1.estado();
 		return saldoActual;
